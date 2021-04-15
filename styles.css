@@ -1,22 +1,73 @@
+html {
+    font-family: 'Karla', sans-serif;
+}
+
 body {
     background-color: #f8f5f1;
     font-family: "Open Sans",sans-serif;
     margin: 0;
 }
   
-.topNav {
+/*Style for the links in the navigation bar*/
+.topNav a {
     float: center;
-    color: #fff;
+    color:#26619c;
     text-align: center;
+    padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 10px;
     text-decoration: none;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+}
+
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+h1 {
+    padding-left: 120px;
+    font-size: 65px;
+    line-height: 70px;
+    font-family: 'Montserrat', serif ;
+    margin: 50px 0px -5px 0px ;
+    display: block;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 125px;
+    padding-right: 600px;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+}
+
+.introduction h3 {
+    padding-left: 120px;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+h4 {
+    padding-top: 25px;
+    padding-left: 120px;
     font-size: 16px;
     font-family: 'Karla', sans-serif;
 }
 
-
+.projects h3 {
+    padding-top: 10px;
+    padding-left: 120px;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+}
 
 logo {
     position: absolute;
