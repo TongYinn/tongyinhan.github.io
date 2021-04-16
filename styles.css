@@ -2,6 +2,10 @@ html {
     font-family: 'Karla', sans-serif;
 }
 
+bg {
+    width: 20%;
+}
+
 body {
     background-color: #f8f5f1;
     font-family: "Open Sans",sans-serif;
@@ -41,12 +45,13 @@ body {
 
 a:hover {
     text-decoration: none;
-    color: #dd4242;
+    color: #dd4242 !important;
     outline: none;
 }
 
 .rightNav {
     float: right;
+    margin: 0 -50px 0 0;
 }
 
 h1 {
@@ -66,12 +71,21 @@ h2 {
 
 .company {
     text-decoration: underline #dd4242;
+    color: black;
 }
 
 .introduction h3 {
     padding-left: 149px;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
+}
+
+.about h3 {
+    padding-top: 30px;
+    padding-left: 149px;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    padding-right: 600px;
 }
 
 h4 {
@@ -88,6 +102,14 @@ h4 {
     font-family: 'Karla', sans-serif;
 }
 
-footer {
-    padding: 20px;
+.footer {
+    margin-top: 30px;
+    margin-left: 150px;
+    padding-bottom: 40px;
+    color: black !important;
+}
+
+.footerDescription {
+    margin-top: 0;
+    margin-left: -149px;
 }
