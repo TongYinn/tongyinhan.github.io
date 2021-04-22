@@ -2,10 +2,6 @@ html {
     font-family: 'Karla', sans-serif;
 }
 
-bg {
-    width: 20%;
-}
-
 body {
     background-color: #f8f5f1;
     font-family: "Open Sans",sans-serif;
@@ -81,11 +77,9 @@ h2 {
 }
 
 .about h3 {
-    padding-top: 30px;
     padding-left: 149px;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
-    padding-right: 600px;
 }
 
 h4 {
@@ -102,6 +96,32 @@ h4 {
     font-family: 'Karla', sans-serif;
 }
 
+.about {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.aboutText {
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+
+.space {
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.aboutPicture {
+    position: relative;
+    width: 27%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
 .footer {
     margin-top: 30px;
     margin-left: 150px;
@@ -112,4 +132,10 @@ h4 {
 .footerDescription {
     margin-top: 0;
     margin-left: -149px;
+}
+
+@media only screen and (max-width: 600px) {
+    #navBarLinkName {
+        font-size: 12px;
+    }
 }
